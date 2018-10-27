@@ -1,2 +1,5 @@
 .data
 .logs
+
+index-debug.js
+index-strict.js
