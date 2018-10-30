@@ -16,11 +16,11 @@ app.init = function(callback) {
   server.init();
   // Start the workers
   workers.init();
-  /* // Start the CLI, but make sure it starts last
+  // Start the CLI, but make sure it starts last
   setTimeout(function() {
     cli.init();
     callback();
-  }, 50); */
+  }, 50);
 };
 
 // Self invoking only if required directly
